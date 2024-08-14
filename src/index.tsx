@@ -6,8 +6,6 @@ import { ThemeProvider } from './context/themeContext'
 import { DeploymentGroupProvider } from './context/deploymentGroupContext'
 import { ErrorProvider } from './context/errorContext'
 import Appbar from './components/Appbar'
-import Playground from './pages/Playground'
-import Chat from './pages/Chat'
 import Home from './pages/Home'
 import Calculator from './pages/Calculator'
 import NotFound from './pages/NotFound'
@@ -26,9 +24,6 @@ root.render(
             <Routes>
               <Route path='/' element={<Appbar />}>
                 <Route index element={<Home />} />
-                <Route path='metrics' element={<LineChart />} />
-                <Route path='playground' element={<Playground />} />
-                <Route path='chat' element={<Chat />} />
                 <Route path='calculator' element={<Calculator />} />
                 <Route path='*' element={<NotFound />} />
               </Route>

@@ -29,21 +29,9 @@ const Appbar = () => {
             />
           </Link>
           {/* <h3 className="text-xl mx-4">Deployments</h3> */}
-          <Link to='/playground'>
-            <h3 className='text-xl mx-4'>Playground</h3>
-          </Link>
-          <Link to='/chat'>
-            <h3 className='text-xl mx-4'>Chat</h3>
-          </Link>
           <Link to='/calculator'>
             <h3 className='text-xl mx-4'>Calculator</h3>
           </Link>
-          <Link to='/metrics'>
-            <h3 className='text-xl mx-4'>Metrics</h3>
-          </Link>
-          <a href='/docs'>
-            <h3 className='text-xl mx-4'>API</h3>
-          </a>
           <a href='https://docs.titanml.co/docs/intro'>
             <h3 className='text-xl mx-4'>Docs</h3>
           </a>
