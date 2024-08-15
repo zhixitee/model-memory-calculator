@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <div className='flex flex-col items-center h-screen w-200'>
-        <h1 className='text-4xl mb-4'>Titan Takeoff Server</h1>
+        <h1 className='text-4xl mb-4'>TitanML</h1>
         <ActionButton
           title='Memory Calculator'
           description='Find out how much memory you need for your AI models.'
