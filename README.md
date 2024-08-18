@@ -6,7 +6,7 @@ Out of Memory (OOMs) errors are hard to deal with, so we made this Model Memory 
 
 - **Model**: You can either select a model from the drop-down menu or enter the number of parameters manually.
 - **Device**: You can either select a device from the drop-down menu or enter the memory manually.
-s
+
 ### Optional
 
 - **Batch Size**: This is the batch size that you want to use for inference.
